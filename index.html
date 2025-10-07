@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Twitch Streamers</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+    <header>
+      <h1>Twitch Streamers</h1>
+      <p>Click a row to open the channel on Twitch</p>
+    </header>
+
+    <section class="controls">
+      <button id="show-all" class="filter active">All</button>
+      <button id="show-online" class="filter">Online</button>
+      <button id="show-offline" class="filter">Offline</button>
+    </section>
+
+    <section id="streams" class="streams" aria-live="polite">
+      <!-- Stream rows will be injected here -->
+    </section>
+
+    <footer>
+      <small>Data via <a href="https://twitch-proxy.freecodecamp.rocks/" target="_blank" rel="noopener">twitch-proxy.freecodecamp.rocks</a></small>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
