@@ -11,11 +11,6 @@ Live demo: [Twitch JSON API by jr-delfin](https://codepen.io/jr-delfin/pen/myVRz
 2. Tools & Technologies Used  
 3. How It Works  
 4. API / Data Source  
-5. Project Structure  
-6. Usage / Instructions  
-7. Features / Behavior  
-8. Possible Enhancements  
-9. License  
 
 ---
 
